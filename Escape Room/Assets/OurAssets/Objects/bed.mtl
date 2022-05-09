@@ -1,0 +1,26 @@
+# Blender MTL File: 'jqc9_lab2.blend'
+# Material Count: 2
+
+newmtl Bed
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns -s 15.000000 15.000000 15.000000 G:\\Desktop\\Lab2\\Fabric036_4K-JPG\\Fabric036_4K_Roughness.jpg
+
+newmtl Table
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -s 10.000000 10.000000 10.000000 G:\\Desktop\\Lab2\\Wood008_4K-JPG\\Wood008_4K_NormalDX.jpg
+map_Kd -s 10.000000 10.000000 10.000000 G:\\Desktop\\Lab2\\Wood008_4K-JPG\\Wood008_4K_Color.jpg
+map_Ns -s 10.000000 10.000000 10.000000 G:\\Desktop\\Lab2\\Wood008_4K-JPG\\Wood008_4K_Roughness.jpg
