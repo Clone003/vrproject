@@ -1,0 +1,16 @@
+# Blender MTL File: 'jqc9_lab2.blend'
+# Material Count: 1
+
+newmtl Fridge
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -s 4.000000 4.000000 4.000000 G:\\Desktop\\Lab2\\Metal009_4K-JPG\\Metal009_4K_NormalDX.jpg
+map_Kd -s 4.000000 4.000000 4.000000 G:\\Desktop\\Lab2\\Metal009_4K-JPG\\Metal009_4K_Color.jpg
+map_Ns -s 4.000000 4.000000 4.000000 G:\\Desktop\\Lab2\\Metal009_4K-JPG\\Metal009_4K_Roughness.jpg
+refl -s 4.000000 4.000000 4.000000 G:\\Desktop\\Lab2\\Metal009_4K-JPG\\Metal009_4K_Metalness.jpg
