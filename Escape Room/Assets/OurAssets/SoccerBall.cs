@@ -12,6 +12,7 @@ public class SoccerBall : MonoBehaviour
     Rigidbody m_Rigidbody;
     public Transform Destination;
     public GameObject player;
+    public Completion puzzle;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class SoccerBall : MonoBehaviour
     {
         if (other.gameObject.tag == "Goal")
         {
-            if(score < 4)
+            if(score < 2)
             {
                 ParticleSystem Firework = Instantiate(firework, Ball.transform.position, Quaternion.identity) as ParticleSystem;
                 score++;
@@ -50,6 +51,9 @@ public class SoccerBall : MonoBehaviour
                 m_Rigidbody.velocity = Vector3.zero;
                 m_Rigidbody.angularVelocity = Vector3.zero;
                 Invoke("teleportObject", 2.0f);
+
+                Debug.Log("Completed Soccer");
+                puzzle.soccer = true;
             }
 
         }
