@@ -12230,11 +12230,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626565114}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!198 &1626873689 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7156899793154010929, guid: 816561555dfed4448918c45bda6db106, type: 3}
-  m_PrefabInstance: {fileID: 7156899791714432607}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1637726878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 3974a8b9dbbdd1248b773b00297abf21, type: 3}
@@ -14511,7 +14506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzle: {fileID: 11400000, guid: bd3c91ff2a927584bb1b2c6293193d83, type: 2}
   door: {fileID: 1231262566}
-  firework: {fileID: 1626873689}
+  firework: {fileID: 7156899793154010929, guid: 816561555dfed4448918c45bda6db106, type: 3}
 --- !u!1 &1957797842
 GameObject:
   m_ObjectHideFlags: 0
